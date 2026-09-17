@@ -165,3 +165,37 @@ img{
 .quote-text{
     color:#1F2937;
 }
+
+/*Styles for section-3 call to action page with text and button*/
+
+.section-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    height: 300px; 
+}
+
+.call-to-action{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    background-color: rgb(17, 137, 235);
+    width: 900px;
+    padding: 40px;
+    border-radius: 10px;
+    align-items:center ;
+    line-height: 10px;
+}
+
+.action-btn{
+    border:2px solid #F9FAF8;
+    background-color: transparent;
+    color: #F9FAF8;
+    border-radius:8px;
+    padding:5px;
+    font-size: 18px;
+    font-weight: 900;
+    height: min-content;
+    width:140px;
+}
