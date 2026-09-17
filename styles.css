@@ -199,3 +199,11 @@ img{
     height: min-content;
     width:140px;
 }
+
+/*footer part of the landing page*/
+.landing-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
